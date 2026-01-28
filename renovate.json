@@ -1,1 +1,8 @@
-{}
+{
+    "pip-compile": {
+      "managerFilePatterns": ["/(^|/)requirements\\.txt$/"]
+    },
+    "pip_requirements": {
+    "enabled": false
+  }
+}

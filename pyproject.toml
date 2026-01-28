@@ -1,0 +1,13 @@
+[project]
+name = "example-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+docs = [
+    "myst-parser>=4",
+    "sphinx>=8",
+]
